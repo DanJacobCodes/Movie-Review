@@ -1,4 +1,5 @@
-<li>
+
+<li class="movie-tile">
   <h4>{{review.user}}'s Movie Review for {{review.movie}}</h4>
   {{#if isImageShowing}}
   <p><img src={{review.image}} alt={{review.movie}} {{action 'imageHide'}}></p>
@@ -7,12 +8,11 @@
 {{else}}
   <br>
   <br>
-  <button {{action 'imageShow'}}class="btn btn-primary">Show Review</button>
+  <button {{action 'imageShow'}}class="btn pink">Show Review</button>
   <br>
 {{/if}}
   <br>
 {{update-review review=review update="update"}}
 <br>
- <button {{action 'delete' review}}class="btn btn-danger">Delete Review</button>
- <hr>
+ <button {{action 'delete' review}}class="btn red material-icons">delete</button>
 </li>
