@@ -11,10 +11,14 @@ module.exports = function(environment) {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
-      }
+    },
+    firebase: {
+      apiKey: "AIzaSyCTQ9m5mOA5odz1c_FuyYkAZ-6RG__do7A",
+      authDomain: "blog-b34b1.firebaseapp.com",
+      databaseURL: "https://blog-b34b1.firebaseio.com",
+      projectId: "blog-b34b1",
+      storageBucket: "blog-b34b1.appspot.com",
+      messagingSenderId: "455716608489"
     },
 
     APP: {

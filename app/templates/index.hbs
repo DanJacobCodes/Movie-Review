@@ -1,0 +1,11 @@
+<h1> Welcome To The Movie Guys </h1>
+
+<p>Check out our movie reviews</p>
+
+<ul>
+  {{#each model as |review|}}
+    {{review-tile review=review update="update" destroyReview="destroyReview"}}
+  {{/each}}
+</ul>
+
+{{new-review saveReview2="saveReview3"}}

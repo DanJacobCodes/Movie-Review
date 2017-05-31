@@ -1,0 +1,18 @@
+{ "reviews": [{
+  "id": 1,
+  "user": "Brian Phan",
+  "movie": "The Conjuring",
+  "director": "James Wan",
+  "genre": "Horror",
+  "user_review": "The best!",
+  "image": "https://trailers.apple.com/trailers/wb/theconjuring/images/poster-large.jpg?lastmod=1"
+}, {
+  "id": 2,
+  "user": "Dan Jacob",
+  "movie": "The Truman Show",
+  "director": "Peter Weir",
+  "genre": "Drama",
+  "user_review": "Jim Carrey provides the performance of the century!",
+  "image": "http://static.rogerebert.com/uploads/movie/movie_poster/the-truman-show-1998/large_EelZzudHRvJmjWccWscN1S5vmI.jpg"
+  }]
+}
