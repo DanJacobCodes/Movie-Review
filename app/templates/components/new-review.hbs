@@ -32,9 +32,9 @@
         {{input value=image id="image"}}
       </div>
 
-      <button {{action 'saveReview1'}}>Save</button>
+      <button {{action 'saveReview1'}}class="btn btn-primary">Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'reviewFormShow'}}>New Review</button>
+  <button {{action 'reviewFormShow'}} class="btn btn-primary">New Review</button>
 {{/if}}
