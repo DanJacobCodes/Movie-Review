@@ -1,9 +1,19 @@
 <div class="container">
-    <header class="jumbotron">
-      <h1>The Movie Guys</h1>
+    <header>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+  <nav>
+   <div class="nav-wrapper">
+     <img id="logo" src="logo.png" alt="brand-logo">
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+       <li>{{#link-to 'index'}}Home {{/link-to}} </li>
+       <li>{{#link-to 'contact'}}Index {{/link-to}}</li>
+       <li>{{#link-to 'about'}}About {{/link-to}}</li>
+     </ul>
+   </div>
+ </nav>
     </header>
     {{outlet}}
-    <hr>
-    <footer>{{#link-to 'index'}}Home! {{/link-to}} || {{#link-to 'contact'}}Our representatives would love to help! {{/link-to}} || {{#link-to 'about'}}About! {{/link-to}}
-    </footer>
 </div>

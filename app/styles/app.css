@@ -1,0 +1,15 @@
+img {
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+h2{
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+#logo {
+  float: left;
+}

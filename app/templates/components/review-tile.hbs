@@ -1,11 +1,18 @@
 <li>
-  <h3>{{review.user}}'s Movie Review for {{review.movie}}</h3>
+  <h4>{{review.user}}'s Movie Review for {{review.movie}}</h4>
   {{#if isImageShowing}}
   <p><img src={{review.image}} alt={{review.movie}} {{action 'imageHide'}}></p>
-  <h3><em>Review:</em> {{review.user_review}}</h3>
+  <h4><em>Review:</em> {{review.user_review}}</h4>
+
 {{else}}
+  <br>
+  <br>
   <button {{action 'imageShow'}}class="btn btn-primary">Show Review</button>
+  <br>
 {{/if}}
+  <br>
 {{update-review review=review update="update"}}
+<br>
  <button {{action 'delete' review}}class="btn btn-danger">Delete Review</button>
+ <hr>
 </li>
